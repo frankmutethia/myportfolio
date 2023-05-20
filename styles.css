@@ -456,20 +456,85 @@ border-radius: 50%;
   width: 2px;
   background-color: var(--first-color);
   transform: translate(5px, -4px);
-
-
-
 }
 
 
+/* services */
+.services__container{
+  row-gap: 2rem;
+}
 
-/* ===== SKILLS =====*/
+.services__content{
+  padding: 1.5rem .5rem;
+  border: 2px solid var(--first-color);
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.services__icon{
+  font-size: 2rem;
+  padding: .5rem;
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  border-radius: 50%;
+  margin-bottom: var(--mb-2);
+}
+
+.services__title{
+  font-size: 1.25rem;
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-1);
+}
+
+.services__content, .services__icon, .services__description .services__title{
+  transition: .5s;
+}
+
+.services__content:hover{
+  background-color: var(--first-color);
+}
+
+.services__content:hover .services__icon{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+}
+
+.services__content:hover .services__title{
+  color: var(--first-color-lighten);
+}
+
+.services__content:hover .services__description{
+  color: var(--first-color-lighten);
+}
 
 
-/* ===== EDUCATION =====*/
+/* projects in mind */
+.project{
+ background-color: var(--first-color);
+ padding-bottom:0 ;
+}
 
+.project__container{
+row-gap: 2rem;
+}
 
-/* ===== SERVICES =====*/
+.project__data{
+  text-align: center;
+}
+
+.project__title, .project__description{
+  color: var(--first-color-lighten);
+}
+
+.project__description{
+  margin-bottom:var(--mb-4);
+}
+
+.project__img{
+  width: 220px;
+  justify-self: center;
+}
+
 
 
 /* ===== PROJECT IN MIND  =====*/
